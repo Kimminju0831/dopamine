@@ -17,23 +17,23 @@
                 }
             </script>
         </div>
+    
 
         <div id="modal" class="modal-overlay">
-            <div class="modal-window">
-                <div class="title">
-                    <h2>모달</h2>
-                </div>
-                <div class="close-area">X</div>
+            <div class="modal-window" style="width:90%;">
                 <div class="content">
-                    <p>가나다라마바사 아자차카타파하</p>
-                    <p>가나다라마바사 아자차카타파하</p>
-                    <p>가나다라마바사 아자차카타파하</p>
-                    <p>가나다라마바사 아자차카타파하</p>
+                    <script>
+                        var rand = Math.random()%6;
+                        var num = parseInt(rand) + 1;
+                        console.log(num);
+                        document.write("<img style=\"width:100%;\" src=\"src/00");
+                        document.write(num);
+                        document.write(".png\"/>");
+                    </script>
                 </div>
             </div>
         </div>
     </div>
-
     <script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>

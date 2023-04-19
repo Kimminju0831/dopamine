@@ -19,10 +19,3 @@ modal.addEventListener("click", e => {
         modal.style.display = "none"
     }
 })
-
-//ESC 눌러서 모달 닫기
-window.addEventListener("keyup", e => {
-        if(modal.style.display === "flex" && e.key === "Escape") {
-            modal.style.display = "none"
-        }
-})
